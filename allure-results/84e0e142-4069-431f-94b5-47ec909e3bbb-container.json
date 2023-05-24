@@ -1,0 +1,1 @@
+{"uuid":"84e0e142-4069-431f-94b5-47ec909e3bbb","name":"DemoWinApp.Demo.openApp","children":["5c7e42fb-1e77-4058-aea4-6d0b7792c69f"],"description":"","befores":[{"name":"openApp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1681214006306,"stop":1681214011488}],"afters":[],"start":1681214006306,"stop":1681214011488}

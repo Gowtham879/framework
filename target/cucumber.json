@@ -1,0 +1,545 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-23T09:56:33.329Z",
+        "line": 10,
+        "name": "calculate the Arithmetic Operations",
+        "description": "",
+        "id": "automate-calculator-using-winappdriver;calculate-the-arithmetic-operations;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4587363300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to Open the  Windows Calculator",
+            "match": {
+              "location": "StepsDefination.CalsiSteps.user_is_able_to_Open_the_Windows_Calculator()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 3011700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8672224100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is able Select the two Number \"234\" and \"126\" perform the \"Addition\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"234\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"126\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Addition\"",
+                  "offset": 63
+                }
+              ],
+              "location": "StepsDefination.CalsiSteps.user_is_able_Select_the_two_Number_and_perform_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282985300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "get the operation results of \"234\" and \"126\" \"Addition\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"234\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"126\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Addition\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepsDefination.CalsiSteps.get_the_operation_results_of_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46874700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the Results",
+            "match": {
+              "location": "StepsDefination.CalsiSteps.verify_the_Results()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ArithmeticOperation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-23T09:56:47.157Z",
+        "line": 11,
+        "name": "calculate the Arithmetic Operations",
+        "description": "",
+        "id": "automate-calculator-using-winappdriver;calculate-the-arithmetic-operations;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3877635100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to Open the  Windows Calculator",
+            "match": {
+              "location": "StepsDefination.CalsiSteps.user_is_able_to_Open_the_Windows_Calculator()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8859602500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is able Select the two Number \"654\" and \"345\" perform the \"Subtraction\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"654\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"345\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Subtraction\"",
+                  "offset": 63
+                }
+              ],
+              "location": "StepsDefination.CalsiSteps.user_is_able_Select_the_two_Number_and_perform_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 347342200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "get the operation results of \"654\" and \"345\" \"Subtraction\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"654\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"345\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Subtraction\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepsDefination.CalsiSteps.get_the_operation_results_of_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50056900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the Results",
+            "match": {
+              "location": "StepsDefination.CalsiSteps.verify_the_Results()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ArithmeticOperation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-23T09:57:00.311Z",
+        "line": 12,
+        "name": "calculate the Arithmetic Operations",
+        "description": "",
+        "id": "automate-calculator-using-winappdriver;calculate-the-arithmetic-operations;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4003959100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to Open the  Windows Calculator",
+            "match": {
+              "location": "StepsDefination.CalsiSteps.user_is_able_to_Open_the_Windows_Calculator()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8756157200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is able Select the two Number \"247\" and \"375\" perform the \"Multiplication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"247\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"375\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Multiplication\"",
+                  "offset": 63
+                }
+              ],
+              "location": "StepsDefination.CalsiSteps.user_is_able_Select_the_two_Number_and_perform_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 276717400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "get the operation results of \"247\" and \"375\" \"Multiplication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"247\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"375\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Multiplication\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepsDefination.CalsiSteps.get_the_operation_results_of_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61263900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the Results",
+            "match": {
+              "location": "StepsDefination.CalsiSteps.verify_the_Results()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ArithmeticOperation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-23T09:57:13.428Z",
+        "line": 13,
+        "name": "calculate the Arithmetic Operations",
+        "description": "",
+        "id": "automate-calculator-using-winappdriver;calculate-the-arithmetic-operations;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3923037100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is able to Open the  Windows Calculator",
+            "match": {
+              "location": "StepsDefination.CalsiSteps.user_is_able_to_Open_the_Windows_Calculator()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8946419300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is able Select the two Number \"596\" and \"896\" perform the \"Division\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"596\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"896\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Division\"",
+                  "offset": 63
+                }
+              ],
+              "location": "StepsDefination.CalsiSteps.user_is_able_Select_the_two_Number_and_perform_the(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1021900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310257800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "get the operation results of \"596\" and \"896\" \"Division\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"596\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"896\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Division\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepsDefination.CalsiSteps.get_the_operation_results_of_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59055000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the Results",
+            "match": {
+              "location": "StepsDefination.CalsiSteps.verify_the_Results()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1001700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefination.CalsiSteps.takeScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ArithmeticOperation"
+          }
+        ]
+      }
+    ],
+    "name": "Automate Calculator Using WinAppDriver",
+    "description": "",
+    "id": "automate-calculator-using-winappdriver",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/Calculator.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,1 @@
+{"uuid":"33f3cf4c-dcc5-42b8-bfb6-6edcae0c533e","name":"DemoWinApp.Demo.closeApp","children":["b3061afe-f9ca-4054-bebc-a9c01d070e65"],"description":"","befores":[],"afters":[{"name":"closeApp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1681990174810,"stop":1681990174913}],"start":1681990174810,"stop":1681990174913}
