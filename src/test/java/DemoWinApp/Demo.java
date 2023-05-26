@@ -35,10 +35,10 @@ public class Demo  {
     }
     @Test
     public  void  switchBrowser() throws IOException {
-        driver.findElementByName("Open Navigation").click();
-        driver.findElementByName("Settings").click();
-        driver.findElementByName("Microsoft Software License Terms").click();
-        Runtime.getRuntime().exec("taskkill /F /IM WinAppDriver.exe");
+//        driver.f("Open Navigation").click();
+//        driver.findElementByName("Settings").click();
+//        driver.findElementByName("Microsoft Software License Terms").click();
+//        Runtime.getRuntime().exec("taskkill /F /IM WinAppDriver.exe");
         ChromeOptions options=new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriverManager.chromedriver().setup();
